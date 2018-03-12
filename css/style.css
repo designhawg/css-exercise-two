@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
+  background-color: #EDA0A6;
   color: #0000FF;
+  line-height: 120%;
 }
 
 nav {
@@ -10,6 +11,37 @@ nav {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  }
+
+a:link { color:#3FBFBF; } /* unvisited */
+a:visited { color:#4FA5A5; } /* visited */
+a:hover { color:#C9E3E3; } /* mouse over */
+a:active { color:#DDFDFD; } /* selected */
+
+figcaption {
+  font-size: 75%;
+}
+h1 {
+  font-size: 200%;
+  line-height: 175%;
+}
+
+h3 {
+  font-size: 125%;
+  line-height: 100%;
+}
+
+.author {
+  font-size: 90%;
+  line-height: 175%;
+}
+
+.story-text {
+  font-size: 110%;
+  line-height: 105%;
+}
 .logo {
   margin: 20px;
   width: 100px;
