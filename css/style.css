@@ -45,11 +45,7 @@ figcaption {
 }
 
 .medium-pic {
-  margin-top: 60%;
-  width: 100%;
-  background-image: url(images/instagram-pic.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 70%;
 }
 
 .left, .right {
@@ -82,5 +78,9 @@ article {
 
 a{
   text-decoration: none;
-  color:#0070BB;
+  color: white;
+}
+
+a:hover{
+  color: orange;
 }
