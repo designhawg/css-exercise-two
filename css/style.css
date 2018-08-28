@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
+  background-color: rgba(196, 209, 219,.5);
   color: #0000FF;
+  font-size: 100%;
+  line-height: 1.5em;/*24px*/
 }
 
 nav {
@@ -10,9 +12,9 @@ nav {
   width: 100%;
 }
 
-.logo {
-  margin: 20px;
-  width: 100px;
+.logo {/*bloc logo*/
+  margin: 20px;/*1.250em*/
+  width: 100px;/*6.250em*/
 }
 
 .large-pic {
@@ -21,6 +23,7 @@ nav {
 
 .medium-pic {
   width: 70%;
+  margin-bottom: 10px;/*0.625em*/
 }
 
 .left, .right {
@@ -39,14 +42,85 @@ ul {
 
 li {
   float: right;
-  padding: 30px;
+  padding: 30px;/*1.875em*/
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 100px;/*6.250em*/
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
 }
+header {/*Entire header elemeny*/
+  display: table;
+  table-layout: fixed;
+  line-height: 1.5em;/*24px*/
+  font-weight: 300;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+figure figcaption {/*Caption under image*/
+  font-size:14px;/*0.875em*/
+  font-weight: 200;
+  color: black;
+  margin-bottom: 10px;/*0.625em*/
+
+}
+
+h1 {/*Title of blog*/
+  font-size: 36px;/*2.250em*/
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 10px;/*0.625em*/
+  margin-bottom: 20px;/*1.250em*/
+  line-height: 1em;/*16px*/
+}
+
+h3 {/*Introduction*/
+  font-size: 17px;/*1.063em*/
+  font-weight:500;
+  text-align: left;
+  line-height: 1.5em;/*24px*/
+  color: black;
+  margin-bottom: 5px;/*0.313em*/
+}
+
+a {/*nav links*/
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+   color:#0070BA;
+   } /* visited */
+
+a:hover {
+  color:#0070BC;
+ } /* mouse over */
+
+.author {/*Author name*/
+  text-align: left;
+  margin-bottom: 10px;/*0.625em*/
+  font-weight: 300;
+}
+.story-text {/*Container for the text*/
+  background-color: white;
+  padding: 30px;/*1.875em*/
+  line-height: 2em;/*32px*/
+  margin-bottom: 30px;/*1.875em*/
+  overflow: hidden;
+}
+ p {/*Text within container*/
+   font-size: 18px;/*1.125em*/
+   font-weight: 300;
+   margin-bottom: 10px;/*0.625em*/
+   color: black;
+ }
