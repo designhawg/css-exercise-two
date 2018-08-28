@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
+  background-color: rgba(196, 209, 219,.5);
   color: #0000FF;
+  font-size: 100%;
+  line-height: 1.5em;
 }
 
 nav {
@@ -50,3 +52,79 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+header {/*Entire header elemeny*/
+  display: table;
+  table-layout: fixed;
+  line-height: 1.5em;
+  font-weight: 300;
+  text-align: center;
+}
+
+figure {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+figure img { /*Image of Aaron Draplin and Chris Courtney*/
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+figure figcaption {/*Caption under image*/
+  font-size:14px;
+  font-weight: 200;
+  color: black;
+  margin-bottom: 10px;
+
+}
+
+h1 {/*Title of blog*/
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+
+h3 {/*Introduction*/
+  font-size: 17px;
+  font-weight:500;
+  text-align: left;
+  line-height: 1.5em;
+  color: black;
+  margin-bottom: 5px;
+}
+
+a {/*nav links*/
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+   color:#0070BA;
+   } /* visited */
+
+a:hover {
+  color:#0070BC;
+ } /* mouse over */
+
+.author {/*Author name*/
+  text-align: left;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.story-text {/*Container for the text*/
+  background-color: white;
+  padding: 30px;
+  line-height: 2em;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+ p {/*Text within container*/
+   font-size: 18px;
+   font-weight: 300;
+   margin-bottom: 10px;
+   color: black;
+ }
