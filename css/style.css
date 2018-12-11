@@ -1,16 +1,17 @@
 body {
   font-size: 16px;
-  background-color: #f5f5dc;
-  color: #0000FF;
+  background-color: #A9A9A9;
+  color: #ffffff;
 }
 
-h1 {
-  font-size: 2em;
+a:link {
+  text-decoration: none;
 }
 
 p {
-  font-size: 100%;
-  line-height: normal;
+  font-size: 14px;
+  font-family: serif;
+  line-height: 2.5;
 }
 
 nav {
@@ -20,17 +21,23 @@ nav {
   width: 100%;
 }
 
+figcaption {
+  font-size: 12px
+}
+
+h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 2.5;
+}
+h3 {
+  font-size: 16px;
+  font-family: "Gill Sans", sans-serif;
+  line-height: 1.5;
+}
 .logo {
   margin: 20px;
   width: 100px;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover { 
-  color:#0070BD; 
 }
 
 .large-pic {
