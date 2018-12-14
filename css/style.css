@@ -8,6 +8,10 @@ a:link {
   text-decoration: none;
 }
 
+a {
+  color: #FFA500;
+}
+
 p {
   font-size: 14px;
   font-family: serif;
