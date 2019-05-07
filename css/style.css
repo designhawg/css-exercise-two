@@ -1,6 +1,25 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: lavenderblush;
+  color: black;
+  font-size: 18px; /* 100% */
+  text-align: left;
+  line-height: 1.25;
+
+
+}
+
+h1 {
+  font-size: 3em; /* 32px */
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  padding-bottom: 15px;
 }
 
 nav {
@@ -8,6 +27,10 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption  {
+  font-size: .7em;
 }
 
 .logo {
@@ -22,6 +45,16 @@ nav {
 .medium-pic {
   width: 70%;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:link { color:#00bfff; } /* unvisited */
+a:visited { color:#0070BA; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 .left, .right {
   float: left;
