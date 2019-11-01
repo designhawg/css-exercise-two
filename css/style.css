@@ -1,13 +1,26 @@
 body {
-  background-color: #ff0000;
+  background-color: white;
   color: #0000FF;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: blue;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: normal;
+  color: blue;
+}
+
+h3 {
+  font-size: 2em;
 }
 
 .logo {
@@ -32,6 +45,10 @@ nav {
   float: right;
 }
 
+.story-text {
+    line-height: 2em;
+}
+
 ul {
   list-style-type: none;
   float: right;
@@ -44,9 +61,34 @@ li {
 
 article {
   padding-top: 100px;
+    line-height: 3em;
+}
+
+p {
+  padding: 15px;
 }
 
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  font-size: 1.5em;
 }
