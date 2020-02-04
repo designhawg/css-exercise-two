@@ -1,6 +1,6 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #FFFFFF;
+  color: #666666;
 }
 
 nav {
@@ -14,6 +14,54 @@ nav {
   margin: 20px;
   width: 100px;
 }
+
+/* begin text properties */
+
+body {
+  line-height: 2.5;
+  line-height: 150%;
+  line-height: 3em;
+  line-height: normal;
+}
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+}
+
+h2 {
+  font-size: 2em; /* 32px */
+    
+}
+h3 {
+  font-size: 1.5em; /* 32px */
+}
+
+p {
+  font-size: 100%; /* 16px */
+}
+
+/* begin interactivity*/
+
+a {
+  text-decoration: none;
+}
+
+a:link { 
+    color:#FFFFFF; 
+} /* unvisited */
+
+a:visited {
+    color:#0070BA; 
+} /* visited */
+
+a:hover {
+    color:#0070BC; } 
+/* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 .large-pic {
   width: 100%;
@@ -50,3 +98,17 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
+
+.link { 
+    color:#0070BB; 
+} /* unvisited */
+
+.visited {
+    color:#0070BA; 
+} /* visited */
+
+.hover {
+    color:#0070BC; } 
+/* mouse over */
+a:active { color:#0070BD; } /* selected */
