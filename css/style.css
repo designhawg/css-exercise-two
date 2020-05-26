@@ -1,6 +1,9 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #808080;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 1.3;
+  margin-top: inherit;
 }
 
 nav {
@@ -32,9 +35,17 @@ nav {
   float: right;
 }
 
+a:hover {
+  color: red;
+}
+
 ul {
   list-style-type: none;
   float: right;
+}
+
+a {
+  text-decoration: none;
 }
 
 li {
@@ -49,4 +60,27 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+h1, h3, figcaption, p {
+  line-height: 32px;   /* within paragraph */
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  margin-bottom: 30px; /* between paragraphs */
+}
+
+h3 {
+  font-size: 1em; /* 32px */
+}
+
+figcaption {
+  font-size: .8em; /* 32px */
+  margin-bottom: 25px;
+}
+
+p {
+  font-size: 100%; /* 20px */
+  margin-top: 30px;
 }
