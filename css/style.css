@@ -1,6 +1,35 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1 {
+  font-size: 2em; /* 32px */
+  line-height: 2;
+}
+
+figcaption {
+  font-size: 75%;
+}
+
+h3 {
+  font-size: 115%; /* Sub heading text*/
+  line-height: normal;
+}
+
+p {
+  font-size: 100%; /* 16px */
+  line-height: 2;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000
+}
+
+a:hover {
+  text-decoration:underline;
+  color: #ffffff
 }
 
 nav {
